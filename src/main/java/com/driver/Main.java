@@ -24,9 +24,12 @@ public class Main {
 
     public static void main(String[] args) {
         Product p = new Product();
-        p.product(5,10);
-        p.product(5,10,5);
-        p.product(5.2,10.2);
+        int a = p.product(5,10);
+        int b = p.product(5,10,5);
+        double c = p.product(5.2,10.2);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
 
     }
     //product class
